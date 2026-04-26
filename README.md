@@ -387,9 +387,9 @@ Implemented:
 
 ## Authors
 
-- Subham Rungta
+- Aditya
 - Adrij Samanta
 - Rudraksh Gautam
 - Sarthak Shahi
 - Devansh Prasad
-- Aditya
+- Shubham Rungta
