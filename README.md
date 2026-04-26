@@ -64,7 +64,8 @@ class_attendance + student_attendance
 - Developed the machine learning pipeline for the face recognition attendance system.
 - Trained the recognition model using student image datasets for accurate identification.
 - Worked on image preprocessing and prediction workflow to improve recognition performance.
-- Helped integrate camera capture for real-time face scanning in the mobile application.
+- Integrated camera capture for real-time face scanning in the mobile application.
+- Achieved accurate recognition on trained student dataset.
 
 ## Database Design
 
