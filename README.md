@@ -59,6 +59,13 @@ class_attendance + student_attendance
 - AWS S3
 - AWS RDS / PostgreSQL
 
+- ## Individual Contributions (Aditya Singh)
+
+- Developed the machine learning pipeline for the face recognition attendance system.
+- Trained the recognition model using student image datasets for accurate identification.
+- Worked on image preprocessing and prediction workflow to improve recognition performance.
+- Helped integrate camera capture for real-time face scanning in the mobile application.
+
 ## Database Design
 
 ### 1. `class_attendance`
@@ -349,7 +356,7 @@ Typical EC2 flow:
 
 ```bash
 ssh -i key.pem ubuntu@EC2_IP
-git clone https://github.com/Subham-56/FaceZoid
+git clone https://github.com/AdityaSingh141-design/FaceZoid
 cd FaceZoid/backend
 python -m venv venv
 source venv/bin/activate
