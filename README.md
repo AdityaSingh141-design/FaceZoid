@@ -296,7 +296,7 @@ FaceZoid/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Subham-56/FaceZoid
+git clone https://github.com/AdityaSingh141-design/FaceZoid
 cd FaceZoid
 ```
 
