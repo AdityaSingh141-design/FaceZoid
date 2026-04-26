@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+numpy
+opencv-python-headless
+boto3
+face_recognition
+python-multipart
+psycopg2-binary

@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "FaceZoid",
+    "slug": "facezoid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "facezoid",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "FaceZoid needs camera access to scan and mark attendance."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ],
+      "package": "com.anonymous.facezoid"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "FaceZoid needs camera access to scan and mark attendance."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "FaceZoid needs media access to save scan recordings.",
+          "savePhotosPermission": "FaceZoid needs media access to save scan recordings.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
