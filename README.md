@@ -59,7 +59,7 @@ class_attendance + student_attendance
 - AWS S3
 - AWS RDS / PostgreSQL
 
-- ## Individual Contributions (Aditya Singh)
+- ## Individual Contributions (Aditya )
 
 - Developed the machine learning pipeline for the face recognition attendance system.
 - Trained the recognition model using student image datasets for accurate identification.
